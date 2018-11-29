@@ -1,1 +1,16 @@
-Windows setup information can go here
+Setting up you development environment:
+
+Download and install Xampp: https://www.apachefriends.org/index.html
+Make sure to install it OUTSIDE of program files in order to avoid silly situations regarding permissions happening.
+
+Once it's been installed, right click it down on the taskbar and start up apache and mysql.
+
+git clone this repository into xampp/htdocs/. You can access all files in your browser using http://localhost/myfoldername/myfile.txt
+
+Create a project in xampp to make things easier, and set it to the cloned folder in the xampp htdocs directory.
+https://puu.sh/C9yQM.png
+
+Create a new branch based on your name to work on for this project folder.
+https://puu.sh/C9yRA.png
+
+Get started!
