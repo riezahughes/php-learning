@@ -4,6 +4,7 @@
 
 $numberOne = 1;
 $numberTwo = 2;
+$numberThree = 3;
 $numberFour = 4;
 $numberFive = 5;
 
@@ -50,3 +51,27 @@ echo "<br/>";
 echo $numberFour / $numberTwo;
 echo "<br/>";
 //divides 4 by 2.
+
+//Making new Variables from old ones:
+//Until now we've been echoing out the results. If you wanted to store the value to be used later, you would just set a new variable.
+
+$newNumber = ($numberOne + $numberTwo) / $numberThree;
+echo $newNumber;
+echo "<br/>";
+//takes the sum of one + two and divides it by 3,making $newNumber = 1;
+
+//One thing to note is that you can go ahead and overwrite any of these at any time.
+//To save clutter and remembering variables, one practice is to use the same left side variable.
+//Here's an example of what i mean.
+
+$newNumber = 0;
+//sets the previous $newNumber to equal 0;
+
+$newNumber = $newNumber + 5;
+$newNumber = $newNumber * 2;
+$newNumber = $newNumber / 2;
+//simple math
+
+echo $newNumber;
+echo "<br/>";
+// $newNumber will equal 5.

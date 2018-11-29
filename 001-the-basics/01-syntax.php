@@ -27,31 +27,49 @@ Usefull for paragraphs and explaining multiple things.
 echo "Hello World";
 
 //this will output "Hello World" using html syntax to our page.
-echo "<h1>Hello Worlds</h1><p>We have a header and a paragraph!</p>";
+echo "<h1>Hello World</h1><p>We have a header and a paragraph!</p>";
 echo "<hr/>";
 
 //Variables are one of the fundamental ways of dealing with data in php and some of these can be echoed as well.
 //Variables are defined by using a DOLLAR($) sign on your keyboard. You can attach multiple types to variables.
 
 //String
-$newString = "This is a string attached to a variable";
+$newString = "This is a string attached to a variable <br/>";
+echo "String: ";
 echo $newString;
 
 //Integer
+echo "Integer: ";
 $newInt = 0;
 echo $newInt;
+echo "<br/>";
 
-//Boolean
+//Boolean - Will show 1 for true and 0 for false
+echo "Boolean: ";
 $newBoolean = true;
 echo $newBoolean;
+echo "<br/>";
 
 //Array
-$newArray = array();
-//you can't echo an array.
+echo "Array: ";
+$newArray = array(1,2,3,4,5);
+print_r($newArray);
+echo "<br/>";
+//you can't echo an array. It's recommended you use print_r or var_dump. I personally prefer print_r
 
 //Function
+//We'll cover this more later, but this is a really basic example of a function that needs two inputs.
+//no matter whats added, this particular function will return true so long as there are two attributes.
+echo "Function: ";
+function myFunction($string, $num){
+  return true;
+}
+
 $newFunction = myFunction("example_function", 0);
-//you CAN echo a function but only if it's return value allows it to do such.
+echo $newFunction;
+
+
+//you can echo a function but only if it's return value allows it to do such.
 
 //TO DO:
 
