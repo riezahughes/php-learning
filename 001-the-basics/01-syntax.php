@@ -1,4 +1,7 @@
 <?php
+//If you have cloned into your XAMPP directory as requested, you can access this file using this link:
+http://localhost/php-learning/001-the-basics/01-syntax.php
+
 //Simple examples of using php and little language excepts so you can understand
 
 //every php file starts with "<?php". This explains to the server to start parsing for PHP.
