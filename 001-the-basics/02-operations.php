@@ -1,4 +1,7 @@
 <?php
+//If you have cloned into your XAMPP directory as requested, you can access this file using this link:
+http://localhost/php-learning/001-the-basics/02-operations.php
+
 // Variables can be used to do a multitude of things and are the core of any serverside application..
 //lets do an initial setup of strings and integers.
 
@@ -82,6 +85,8 @@ echo "<br/>";
 Using the space below, create 3 different formulas that make the number 100 and echo it out.
 You may use the variables defined at the start or if you require it include other numbers using variables of your own.
 Remember: $numberOne is just a reference i choose. You could have just as easilly called the variable holding 1 $house.
+
+remember to commit this file once you're convinced it's doing what you need it to.
 */
 
 //ADD CODE UNDER HERE
