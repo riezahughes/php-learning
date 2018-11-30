@@ -75,3 +75,13 @@ $newNumber = $newNumber / 2;
 echo $newNumber;
 echo "<br/>";
 // $newNumber will equal 5.
+
+//TO DO:
+
+/*
+Using the space below, create 3 different formulas that make the number 100 and echo it out.
+You may use the variables defined at the start or if you require it include other numbers using variables of your own.
+Remember: $numberOne is just a reference i choose. You could have just as easilly called the variable holding 1 $house.
+*/
+
+//ADD CODE UNDER HERE

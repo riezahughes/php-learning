@@ -36,6 +36,8 @@ echo "<hr/>";
 //Variables are one of the fundamental ways of dealing with data in php and some of these can be echoed as well.
 //Variables are defined by using a DOLLAR($) sign on your keyboard. You can attach multiple types to variables.
 
+//Variables are CASE SENSITIVE - $newstring is not the same oas $newString!
+
 //String
 $newString = "This is a string attached to a variable <br/>";
 echo "String: ";
